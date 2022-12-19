@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+    <string name="header1">СПИСОК ПОКУПОК В МАГАЗИН</string>
+    <string name="header2">ДОБАВИТЬ НОВЫЙ ПРОДУКТ</string>
+    <string name="header3">Продукт:</string>
+    <string name="header4">Количество:</string>
+    <string name="header5">Ед.изм.</string>
+    <string name="hint_add">Введите новый продукт</string>
+    <string name="hint_amount">Введите количество продукта</string>
+    <string name="button">ИЗМЕНИТЬ СПИСОК</string>
+    <string name="buttonAdd">ДОБАВИТЬ</string>
+    <string name="menu">ДОБАВИТЬ</string>
+</resources>
