@@ -44,7 +44,11 @@ public class AddProductActivity extends AppCompatActivity {
         // определение слушателя
         AdapterView.OnItemSelectedListener itemSelectedListener = new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) { // adapterView - объект спиннер, в котором произошло событие выбора
+                // view - объект представления внутри спиннера, который представляет выбранный элемент
+                // i - индекс выбранного элемента в адаптере
+                // l - идентификатор строки того элемента, который был выбран
+
                 // получение выбранного объекта
                 siYes = (String) adapterView.getItemAtPosition(i);
                 //String item = (String) adapterView.getItemAtPosition(i);
